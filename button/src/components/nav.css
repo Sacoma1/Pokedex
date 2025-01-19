@@ -1,0 +1,99 @@
+/* Contenedor principal */
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* Fondo claro */
+    border-radius: 8px; /* Esquinas redondeadas */
+    
+    max-width: 1200px;
+    margin: 0 auto; /* Centrar horizontalmente */
+  }
+  
+  /* Controles (Sort, Order) */
+  .controls {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ffcc00; /* Amarillo Pokémon */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Caja de búsqueda */
+  .search-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    flex: 1;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .search-input:focus {
+    border-color: #ffcc00;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .search-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Toggle */
+  .toggle {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .toggle label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .toggle input {
+    margin-right: 5px;
+  }
+  
+  .black-box{
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    
+  }
