@@ -1,4 +1,4 @@
-/* Contenedor principal */
+
 .search-container {
     display: flex;
     justify-content: space-between;
@@ -11,7 +11,7 @@
     margin: 0 auto; /* Centrar horizontalmente */
   }
   
-  /* Controles (Sort, Order) */
+
   .controls {
     display: flex;
     gap: 10px;
